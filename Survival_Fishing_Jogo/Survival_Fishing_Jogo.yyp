@@ -27,9 +27,13 @@
   },
   "name":"Survival_Fishing_Jogo",
   "resources":[
+    {"id":{"name":"obj_control","path":"objects/obj_control/obj_control.yy",},},
+    {"id":{"name":"obj_peixes","path":"objects/obj_peixes/obj_peixes.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"scr_escolhe_peixe","path":"scripts/scr_escolhe_peixe/scr_escolhe_peixe.yy",},},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
+    {"id":{"name":"spr_numeros","path":"sprites/spr_numeros/spr_numeros.yy",},},
     {"id":{"name":"spr_peixeAzul","path":"sprites/spr_peixeAzul/spr_peixeAzul.yy",},},
     {"id":{"name":"spr_peixeCinza","path":"sprites/spr_peixeCinza/spr_peixeCinza.yy",},},
     {"id":{"name":"spr_peixeMarrom","path":"sprites/spr_peixeMarrom/spr_peixeMarrom.yy",},},
