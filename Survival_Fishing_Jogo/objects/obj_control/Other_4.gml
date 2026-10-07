@@ -7,3 +7,6 @@ global.contador = 0// iremos usar esta variável como
 
 // Chamando o alarme1 depois de 1s
 alarm_set(1, game_get_speed(gamespeed_fps))
+
+//Adicionando o áudio do jogo
+audio_play_sound(snd_fundo, 1, true)

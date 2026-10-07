@@ -15,7 +15,9 @@ function scr_escolhe_peixe(peixe_sorteado){
 		case 3: 
 			sprite_index = spr_peixeMarrom
 			// Esse peixe aparenta ser mais lento
-			hspeed = random_range(0.5, 1.2)			
+			hspeed = random_range(0.5, 1.2)		
+			// Aplicando uma velocidade vertical 
+			vspeed = choose(-0.5, 0.5)// ele irá subir ou descer
 		break
 		case 4:
 			sprite_index = spr_peixeRosa

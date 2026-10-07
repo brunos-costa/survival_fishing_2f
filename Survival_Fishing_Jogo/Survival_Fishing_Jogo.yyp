@@ -28,11 +28,18 @@
   "name":"Survival_Fishing_Jogo",
   "resources":[
     {"id":{"name":"obj_control","path":"objects/obj_control/obj_control.yy",},},
+    {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},},
     {"id":{"name":"obj_peixes","path":"objects/obj_peixes/obj_peixes.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"obj_voltar_menu","path":"objects/obj_voltar_menu/obj_voltar_menu.yy",},},
+    {"id":{"name":"Room_Controle","path":"rooms/Room_Controle/Room_Controle.yy",},},
+    {"id":{"name":"Room_Inicio","path":"rooms/Room_Inicio/Room_Inicio.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"scr_escolhe_peixe","path":"scripts/scr_escolhe_peixe/scr_escolhe_peixe.yy",},},
+    {"id":{"name":"snd_fundo","path":"sounds/snd_fundo/snd_fundo.yy",},},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
+    {"id":{"name":"spr_controle","path":"sprites/spr_controle/spr_controle.yy",},},
+    {"id":{"name":"spr_logo_inicio","path":"sprites/spr_logo_inicio/spr_logo_inicio.yy",},},
     {"id":{"name":"spr_numeros","path":"sprites/spr_numeros/spr_numeros.yy",},},
     {"id":{"name":"spr_peixeAzul","path":"sprites/spr_peixeAzul/spr_peixeAzul.yy",},},
     {"id":{"name":"spr_peixeCinza","path":"sprites/spr_peixeCinza/spr_peixeCinza.yy",},},
@@ -45,7 +52,9 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"Room_Inicio","path":"rooms/Room_Inicio/Room_Inicio.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Room_Controle","path":"rooms/Room_Controle/Room_Controle.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
